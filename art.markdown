@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: art
 title: About
 nav_order: 4
 description: "Art"

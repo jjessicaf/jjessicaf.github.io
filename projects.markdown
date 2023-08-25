@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: projects
 title: Projects
 nav_order: 3
 description: "Projects"
@@ -18,3 +18,8 @@ permalink: /projects/
 <p>Meet weekly with team of 5 to build VR template for ancient manuscript, allowing accessibility to delicate texts. Fixed bugs to ensure flipping virtual manuscript pages results in smooth and responsive flips, correct page translation appearing, and correct page number appearing. Optimized code through greater encapsulation and clearer logic. Initiated documentation site. Proposed and implemented Restore Mode whereby clicking interactable areas causes page to change</p>
 
 [github](https://github.com/jjessicaf/GVAAM)
+
+## Bill Calculator
+<p>Built Flask app that allows users to easily split restaurant bills by simply uploading an image of the bill. Integrated a database to store binary data of images, designed responsive pages to handle user input.</p>
+
+[github](https://github.com/jjessicaf/bill-calculator)
