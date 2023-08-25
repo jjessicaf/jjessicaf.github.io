@@ -1,4 +1,17 @@
+html {
+  background-color: #f6f7fc; }
+
+h1 {
+  font-family: Clarendon LT; }
+
+h2, p {
+  font-family: Avenir; }
+
+.navbar {
+  background-color: aqua;
+  height: 100px; }
+
 .current {
-  color: green; }
+  color: #313fc9; }
 
 /*# sourceMappingURL=style.css.map */

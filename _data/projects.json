@@ -1,0 +1,27 @@
+{
+  "projects":[
+    {
+      "title": "Emote Recommender",
+      "image": "D",
+      "description": "d",
+      "links": [
+        {
+          "idk":"c"
+        }
+      ]
+    },
+    {
+      "title": "Emote Recommender",
+      "details": [
+        {
+          "title": "Multimodal Speech Recognition for Language-Guided Embodied Agents (2.0)",
+          "id": "s23_asr",
+          "image": "/images/projects/music.png",
+          "leadAuthors": [
+            "Allen Chang"
+          ]
+        }
+      ]
+    }
+  ]
+}
