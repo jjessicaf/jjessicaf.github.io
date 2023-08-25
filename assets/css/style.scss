@@ -1,5 +1,7 @@
 html {
   background-color: #f6f7fc;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -10,9 +12,34 @@ h2, p {
   font-family: Avenir;
 }
 
-.navbar {
-  background-color: aqua;
-  height: 100px;
+nav {
+  justify-content: center;
+}
+
+#navbar {
+  background-color: #2870ff;
+  height: 50px;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+  font-family: Avenir;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#navbar > .navitem {
+  margin: 10px;
+}
+
+.navitem > a {
+  text-decoration: none;
+  color: #f6f7fc;
 }
 
 .current {
