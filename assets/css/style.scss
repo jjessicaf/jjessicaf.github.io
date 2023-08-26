@@ -36,6 +36,11 @@ h2, p {
 #art {
   width: 100%;
 }
+#art > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 nav {
