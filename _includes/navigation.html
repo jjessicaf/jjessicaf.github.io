@@ -1,9 +1,18 @@
 <nav>
     <div id="navbar">
-    {% for item in site.data.navigation %}
-    <div class="navitem">
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-    </div>
-    {% endfor %}
+        <div id="pages">
+            {% for item in site.data.navigation %}
+            <div class="navitem">
+                <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+            </div>
+            {% endfor %}
+        </div>
+        <div id="socials">
+            {% for item in site.data.social %}
+            <div class="social">
+                <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}target="_blank">{{ item.name }}</a>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </nav>

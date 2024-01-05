@@ -8,5 +8,7 @@ nav_order: 1
 description: "Home"
 permalink: /
 ---
+<section class="home">
 <h1>Hi! I'm Jessica Fu</h1>
-<h2>Welcome to my personal site.</h2>
+<h2>I'm a sophomore majoring in Computer Science and minoring in Internet of Things Engineering at the University of Southern California who's interested in building human-centered technology.</h2>
+</section>

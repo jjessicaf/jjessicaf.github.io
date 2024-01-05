@@ -1,4 +1,4 @@
-html {
+html, body {
   background-color: #f6f7fc;
   margin: 0;
   padding: 0;
@@ -27,6 +27,8 @@ h2, p {
   h2 {
     text-align: center;
   }
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 #projects {
@@ -48,29 +50,57 @@ nav {
 }
 
 #navbar {
-  background-color: #2870ff;
+  background-color: #2058DC;
   height: 50px;
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   min-width: 500px;
   font-family: Avenir;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   margin: 0;
   padding-top: 15px;
   padding-bottom: 15px;
-  gap: 50px;
+}
+
+#pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px; /* Adjust the value based on your preference */
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px; /* Adjust the value based on your preference */
+}
+
+.navitem {
+  margin-right: 50px;
+}
+
+.social {
+  margin-left: 15px;
+}
+
+.social > a {
+  text-decoration: none;
+  color: #faf5e8;
+}
+.social > a.current {
+  color: #fa6a35;
 }
 
 .navitem > a {
   text-decoration: none;
-  color: #f6f7fc;
+  color: #faf5e8;
 }
 .navitem > a.current {
-  color: #f598ff;
+  color: #FAB935;
 }
